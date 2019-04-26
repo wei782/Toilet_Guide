@@ -9,3 +9,6 @@ To satisfy all type of user, including disabled personnel, people prefer to iden
 Design details will be discussed below.
 ### Color System
 Human is sensitive to color. In this app, user can customize which color can show the toilet status directly. In detail, once certain condition is satisfied, the color can change to user defined one, otherwise, it will turn to another color.
+<p align="center">
+  <img src="/mockup/iOS/iOS_1.png" />
+</p>
