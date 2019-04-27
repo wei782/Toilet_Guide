@@ -35,3 +35,8 @@ The app shall not use identification code on a device to analyze data. All data 
 
 ### Accessibility
 The app will have voice description support (Apple VoiceOver, Google Talkback) for visual disability person.
+
+## Implementation
+Very technological details here.
+
+Rather than just put a browser shell or something like that and make user experience bad, native application is more reasonable to the project. But that do not mean there will be no web client… actually, developing country and region like India and Africa have many Javascript and HTML5 based function phone operating system (KaiOS) running and have large market, this app will be helpful to people there.
