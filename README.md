@@ -30,6 +30,9 @@ User can subscribe a toilet and app will push an information into notification c
   <img src="/mockup/iOS/iOS_7.png" />
 </p>
 
+### Forecast AI
+I really want to apply and implement some kind of AI forecast model in this app to get an estimate update to all the toilet, in consider of the fact that nobody will stay in the toilet for us to collect data. If the forecast is reliable which can forecast change of crowdedness, cleanness (probably related to clean frequency and crowdedness) the demand of very latest data shall decrease a little bit. That should be good news to server load.
+
 ### Privacy
 The app shall not use identification code on a device to analyze data. All data analyze and the algorithm should base on what user will to provide (mostly, toilet rating).
 
@@ -42,5 +45,3 @@ Very technological details here.
 But as for now, iOS and android will be more considerable. For iOS, native means UIKit. As discussion and mockup above, the app will follow Apple’s design guideline. For android, that is another story. The whole application will use Material Design. Although Material Design is a cross-platform design language which can actually also use in iOS, my personal opinion is more preferring native design language on the platform.
 
 A server is needed to save all the corresponding toilet geographical point as its identical information and relative reviews in the cloud. API should also provide as this is cross-platform, probably open source project… It will be painful to implement direct data access to the database in every platform, and API will be more easy access to other developer. 
-
-Algorithm. I really want to apply and implement some kind of AI forecast model in this app to get an estimate update to all the toilet, in consider of the fact that nobody will stay in the toilet for us to collect data. If the forecast is reliable which can forecast change of crowdedness, cleanness (probably related to clean frequency and crowdedness) the demand of very latest data shall decrease a little bit. That should be good news to server load.
