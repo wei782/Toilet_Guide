@@ -12,3 +12,7 @@ Human is sensitive to color. In this app, user can customize which color can sho
 <p align="center">
   <img src="/mockup/iOS/iOS_1.png" />
 </p>
+The picture above shows sample color strategies, which use traffic lights pattern: green means go to go, yellow means caution and red means no.
+
+### Personalization
+The app provides variety of preference options, users can customize their preferences in one place by simply choosing in segment control or list box.
