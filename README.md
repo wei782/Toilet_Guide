@@ -7,6 +7,7 @@ This app is localization based, with a map component on the main screen to show 
 To satisfy all type of user, including disabled personnel, people prefer to identify themselves as neutral sex or family toilet needed person, this app will provide accessible and personalized toilet information as more as possible.
 
 Design details will be discussed below.
+
 ### Color System
 Human is sensitive to color. In this app, user can customize which color can show the toilet status directly. In detail, once certain condition is satisfied, the color can change to user defined one, otherwise, it will turn to another color.
 <p align="center">
@@ -16,3 +17,13 @@ The picture above shows sample color strategies, which use traffic lights patter
 
 ### Personalization
 The app provides variety of preference options, users can customize their preferences in one place by simply choosing in segment control or list box.
+<p align="center">
+  <img src="/mockup/iOS/iOS_2.png" />
+</p>
+The picture above shows mockup preference page under iOS.
+
+### Privacy
+The app shall not use identification code on a device to analyze data. All data analyze and the algorithm should base on what user will to provide (mostly, toilet rating).
+
+### Accessibility
+The app will have voice description support (Apple VoiceOver, Google Talkback) for visual disability person.
