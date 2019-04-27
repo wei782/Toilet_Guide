@@ -6,6 +6,8 @@ This app is localization based, with a map component on the main screen to show 
 
 To satisfy all type of user, including disabled personnel, people prefer to identify themselves as neutral sex or family toilet needed person, this app will provide accessible and personalized toilet information as more as possible.
 
+This app will be cross platform, the design element will adapt to what required by the operating system.
+
 Design details will be discussed below.
 
 ### Color System
@@ -21,6 +23,12 @@ The app provides variety of preference options, users can customize their prefer
   <img src="/mockup/iOS/iOS_2.png" />
 </p>
 The picture above shows mockup preference page under iOS.
+
+### Push Message
+User can subscribe a toilet and app will push an information into notification center to notify the user when certain conditions are satisfied. For example, if the crowdedness of a subscribed toilet become acceptable to the user, the app will push a simple local message to the user. (Not go through Apple or Google push server)
+<p align="center">
+  <img src="/mockup/iOS/iOS_7.png" />
+</p>
 
 ### Privacy
 The app shall not use identification code on a device to analyze data. All data analyze and the algorithm should base on what user will to provide (mostly, toilet rating).
