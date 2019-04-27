@@ -39,4 +39,6 @@ The app will have voice description support (Apple VoiceOver, Google Talkback) f
 ## Implementation
 Very technological details here.
 
-Rather than just put a browser shell or something like that and make user experience bad, native application is more reasonable to the project. But that do not mean there will be no web client… actually, developing country and region like India and Africa have many Javascript and HTML5 based function phone operating system (KaiOS) running and have large market, this app will be helpful to people there.
+But as for now, iOS and android will be more considerable. For iOS, native means UIKit. As discussion and mockup above, the app will follow Apple’s design guideline. For android, that is another story. The whole application will use Material Design. Although Material Design is a cross-platform design language which can actually also use in iOS, my personal opinion is more preferring native design language on the platform.
+
+A server is needed to save all the corresponding toilet geographical point as its identical information and relative reviews in the cloud. API should also provide as this is cross-platform, probably open source project… It will be painful to implement direct data access to the database in every platform, and API will be more easy access to other developer. 
